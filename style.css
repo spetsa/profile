@@ -1,0 +1,91 @@
+@stylesheet "UTF-8";
+
+
+body{
+    background: rgb(300,300,300);
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 85%;
+  }
+
+
+  h1{
+
+    color: black;
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    line-height: 85%;
+  }
+
+
+  h2{
+
+    color: black;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 85%;
+  }
+
+
+  h3{
+
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 85%;
+  }
+
+  a {
+    color: green;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: purple;
+    text-decoration: none;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card-white {
+    background: white;
+    padding: 30px;
+    border
+  }
+
+    .container {
+      width: 700px;
+      margin: 0px auto;
+    }
+
+    
+  @media (max-width: 960px) {
+    .card-red {
+      background-color: red;
+      padding: 60px;
+      border-radius: 4px;
+      margin: 50px 0px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    /* For a screen < 960px, this CSS will be read */
+    .card-red {
+      background-color: rgb(45, 24, 235);
+      padding: 60px;
+      border-radius: 4px;
+      margin: 50px 0px;
+      text-align: center;
+    }
+  }
